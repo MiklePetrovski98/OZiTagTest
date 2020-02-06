@@ -11,19 +11,9 @@
     position: relative;
 }
 
-.overlay{
-    position: fixed;
-    display: none;
-    top: 60px;
-    left:0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0,0,0,.5);
-    z-index: 5;
-
-}
-
 
 
 @import "blocks/navbar";
+@import "blocks/menu";
+@import "blocks/link";
 
